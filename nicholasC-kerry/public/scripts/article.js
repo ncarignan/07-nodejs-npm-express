@@ -50,7 +50,11 @@ Article.prototype.insertRecord = function(callback) {
       console.log(data);
 
       // COMMENT: What is the purpose of this line? Is the callback invoked when this method is called? Why or why not?
-      // PUT YOUR RESPONSE HERE
+
+      // Callback is not invoked for two reasons,
+      // 1. Nothing is passed into insertRecord when it is called on the Submit button click as defined on articleView.js
+      // 2. callback() is not a defined method.
+
       if (callback) callback();
     })
 };
