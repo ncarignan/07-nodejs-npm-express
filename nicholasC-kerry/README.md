@@ -41,7 +41,7 @@ We were given starter code with the html file completed. You would have to layou
 1. Reviewed new code and commented on their function on their stack trace
 
 ## Architecture
-We used CSS and modified an html file already given to us. We imported a normalized CSS file from https://github.com/necolas/normalize.css/ 
+We used CSS and modified an html file already given to us. We imported a normalized CSS file from https://github.com/necolas/normalize.css/
 We use node  via an express library to initialize the server
 
 ## Change Log
